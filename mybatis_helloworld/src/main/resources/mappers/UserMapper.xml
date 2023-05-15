@@ -10,9 +10,9 @@
 2、mapper 接口中的方法名要和映射文件中的SQL 的 id 保持一致。
 -->
 
-<!--    int insertUser-->
+<!--    int insertUser();-->
     <insert id="insertUser">
-        insert into t_user values(null, 'admin', '123456', 23, '男', '12345@qq.com)
+        insert into t_user values(null, 'admin', '123456', 23, '男', '12345@qq.com')
     </insert>
 
 </mapper>
